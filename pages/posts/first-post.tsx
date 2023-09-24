@@ -1,10 +1,10 @@
 import Link from "next/link";
 import Head from "next/head";
-import Layout from '../../components/Layout.1';
+import Layout from '../../components/layout'
 
 export default function FirstPost() {
   return (
-    <Layout>
+    <Layout home>
       <Head>
         <title>First Post</title>
         <link rel="icon" href="/favicon.ico" />
